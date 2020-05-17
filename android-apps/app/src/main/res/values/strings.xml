@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">kek</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">send</string>
+    <string name="enter_chat">Enter Chat</string>
+    <string name="display_name">Display Name</string>
+</resources>
