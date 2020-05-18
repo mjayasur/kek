@@ -2,7 +2,7 @@ var app = require('express')();
 var http = require('http').createServer(app);
 var io = require('socket.io')(http);
 
-users = {}
+var users = {}
 
 app.get('/users',  function (req, res) {
     res.send(Object.keys(users));
